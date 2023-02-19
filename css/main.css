@@ -1005,7 +1005,14 @@ footer {
 	font-size: 18px;
 	line-height: 21px;
 	text-transform: uppercase;
+	color: #000;
+	transition: var(--transition);
+}
+.services-content__card:hover
+	.services-content__card-content
+	.services-content__card-title {
 	color: var(--accent);
+	text-decoration: underline;
 }
 .services-content__card-desc {
 	font-weight: 400;
