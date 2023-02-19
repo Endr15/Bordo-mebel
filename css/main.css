@@ -992,6 +992,7 @@ footer {
 .services-content__card {
 	display: flex;
 	justify-content: space-between;
+	transition: var(--transition);
 
 	border: 1px solid var(--light-disabled);
 	margin-bottom: 20px;
@@ -1007,6 +1008,9 @@ footer {
 	text-transform: uppercase;
 	color: #000;
 	transition: var(--transition);
+}
+.services-content__card:hover {
+	border-color: var(--accent);
 }
 .services-content__card:hover
 	.services-content__card-content
