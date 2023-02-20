@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
+	// Smooth scroll
+	let anchors = document.querySelectorAll('form[action*="#"]')
+
+	for (anchor of anchors) {
+		if (anchor) {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault()
+				anchorId = this.getAttribute('action')
+				document.querySelector(anchorId).scrollIntoView({
+					behavior: 'smooth',
+					block: 'start',
+				})
+			})
+		}
+	}
+
 	MicroModal.init({
 		openTrigger: 'data-custom-open',
 		closeTrigger: 'data-custom-close',
@@ -89,21 +105,4 @@ document.addEventListener('DOMContentLoaded', function () {
 				.replace(/([0-9.]+)/g, '<span>$1</span>')
 		)
 	})
-
-	// Smooth scroll
-	let anchors = document.querySelectorAll('form[action*="#"]')
-
-	for (anchor of anchors) {
-		if (anchor) {
-			anchor.addEventListener('click', function (e) {
-				e.preventDefault()
-				anchorId = this.getAttribute('action')
-				console.log(anchorId)
-				document.querySelector(anchorId).scrollIntoView({
-					behavior: 'smooth',
-					block: 'start',
-				})
-			})
-		}
-	}
 })
