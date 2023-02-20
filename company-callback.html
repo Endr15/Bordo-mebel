@@ -83,91 +83,47 @@
 			</div>
 		</nav>
 
-		<section class="company">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 aside-box">
-						<div class="aside-box__content">
-							<h3 class="aside-box__title">Информация о нас</h3>
-							<ul class="aside-box__list">
-								<li><span>О компании</span></li>
-								<li><a href="company-benefits.html">Преимущества</a></li>
-								<li><a href="company-callback.html">Обратная связь</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-md-9 company__lending">
-						<h1 class="company__lending-title">О компании «BORDO MEBEL»</h1>
-						<p class="company-about__lending-desc">
-							Здравствуйте! Здесь представлена небольшая история о нас...Наша
-							компания занимается продажей мягкой и корпусной мебели.
-							<span>BORDO MEBEL</span> - это нестандартные решения так как мы
-							научились сочетать несочетаемое! Слоган нашей фирмы: «<span
-								>BORDO MEBEL</span
-							>
-							- мебель, доступная каждому!» В своей работе мы комбинируем
-							бюджетные материалы с дорогими, сохраняя ваш бюджет, а огромный
-							выбор материалов и индивидуальный подход к каждому проекту,
-							помогают нам реализовать ваши задумки.
-						</p>
-						<img
-							src="/images/portfolio/company-about-1.jpg"
-							alt="Lending image"
-							class="company-about__lending-img"
-						/>
-
-						<p class="company-about__lending-desc">
-							<span>BORDO MEBEL</span>- динамично развивающаяся компания,
-							занимающаяся производством и реализацией мягкой и корпусной
-							мебели.С момента создании компании, все наши усилия направлены на:
-						</p>
-						<ul class="company-about__lending-list">
-							<li>
-								Совершенствование процесса мебельного производства и на
-								внедрение современных технологий для повышения качества нашей
-								продукции.
-							</li>
-							<li>
-								Индивидуальный подход к каждому заказчику, который позволяет
-								создавать современную, надежную и функциональную мебель.
-							</li>
-							<li>
-								Широкий ассортимент современных и уже зарекомендовавших себя
-								моделей.
-							</li>
-							<li>
-								Комбинирование различных модульных элементов, учитывая
-								особенности габаритов Вашей комнаты.
-							</li>
-						</ul>
-						<img
-							src="/images/portfolio/company-about-2.jpg"
-							alt="Lending image"
-							class="company-about__lending-img"
-						/>
-
-						<p class="company-about__lending-desc">
-							На производстве <span>BORDO MEBEL</span> гармонично уживаются
-							современные технологии и ручной труд: каркасы собираются с четким
-							соблюдением всех необходимых требований, набивка производится в
-							строгом соответствии с нормами.
-						</p>
-						<p class="company-about__lending-desc">
-							Мебель <span>BORDO MEBEL</span> работает не только по всей
-							Чувашии, но также в городах: Канаш, Йошкар-Ола, Казань,
-							Нижний-Новгород, Ульяновск, Тольятти, Сызрань, Чистополь, Елабуга,
-							Нижнекамск и на этом мы не хотим останавливаться! И, конечно же,
-							мы обзавелись множеством постоянных покупателей, которые любят
-							нашу продукцию и с удовольствием рекомендуют ее своим друзьям.
-						</p>
-						<p class="company-about__lending-desc">
-							Ждем и вас с вашей большой и дружной семье!С уважением,BORDO
-							MEBEL!<br />С уважением,<br /><span>BORDO MEBEL</span>
-						</p>
+		<section class="company" style='margin: 70px 0 0;'>
+			<div class="comapany-callback">
+				<h1 class="company__lending-title company-callbakc-title">
+					Обратная связь
+				</h1>
+				<div class="company-callback__desc">
+					Задайте нам любой вопрос, напишите или сделайте заказ. Мы ответим вам
+					в ближайшее время.
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<form class="col-md-4">
+							<input type="text" name="Имя" placeholder="Ваше имя..." />
+							<input type="text" name="Телефон" placeholder="Ваш телефон..." />
+							<textarea
+								name="Комментарий"
+								rows="4"
+								placeholder="Комментарий..."
+							></textarea>
+							<input type="hidden" name="form" />
+							<div class="modal__footer">
+								<button class="button">Отправить</button>
+							</div>
+						</form>
 					</div>
 				</div>
-			</div>
+
+				<div class="company-callback__address">
+					<h2 class="company-callback__address-title">Наши контакты</h2>
+					<div class="company-callback__address-desc">
+						<i></i>г. Новочебоксарск, ул. Винокурова 59
+					</div>
+					<a
+						href="tel:+79674702536"
+						title="Позвонить..."
+						class="company-callback__address-phone"
+						>+7 (967) 470-25-36</a
+					>
+					<div class="col-md-6 map" id="map"></div>
+				</div>
 		</section>
 
 		<footer>
@@ -252,6 +208,10 @@
 			<form action="#body"><button class="to-top"></button></form>
 		</footer>
 
+		<script
+			src="https://api-maps.yandex.ru/2.1/?apikey=f62f33ed-e71f-4848-aa34-621bb49d8a0c&lang=ru_RU"
+			type="text/javascript"
+		></script>
 		<script src="js/common.js"></script>
 	</body>
 </html>

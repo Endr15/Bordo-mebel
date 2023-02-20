@@ -1067,16 +1067,16 @@ footer {
 
 /* COMPANY ABOUT */
 
-.company-about {
+.company {
 	margin: 70px 0;
 }
 
-.company-about__lending-title {
+.company__lending-title {
 	font-weight: 800;
 	font-size: 30px;
 	line-height: 35px;
 }
-.company-about__lending-desc {
+.company__lending-desc {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 170%;
@@ -1092,4 +1092,125 @@ footer {
 .company-about__lending-img {
 	padding-bottom: 50px;
 	width: 100%;
+}
+
+/* COMPANY BENEFITS */
+
+.company-benefits__lending-title {
+	text-align: center;
+}
+
+.company-benefits__content {
+	margin: 50px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.company-benefits__content-item {
+	padding: 0 15px 40px;
+	max-width: 300px;
+
+	border-bottom: 1px solid var(--light-div);
+}
+.company-benefits__content-item {
+	text-align: center;
+}
+.company-benefits__content-title {
+	padding: 15px 0;
+
+	font-weight: 800;
+	font-size: 19px;
+	line-height: 22px;
+
+	transition: var(--transition);
+}
+.company-benefits__content-desc {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 170%;
+}
+.company-benefits__content-item span {
+	display: block;
+	padding-top: 20px;
+
+	font-weight: 800;
+	font-size: 15px;
+	line-height: 170%;
+	text-decoration: underline;
+
+	transition: var(--transition);
+}
+.company-benefits__content-item:hover span,
+.company-benefits__content-item:hover .company-benefits__content-title {
+	color: var(--accent);
+}
+.delivery {
+	padding-bottom: 40px;
+}
+
+/* COMPANY CALLBACK */
+
+.company-callbakc-title {
+	text-align: center;
+}
+.company-callback__desc {
+	text-align: center;
+	max-width: 550px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.company-callback__address {
+	margin: 70px 0 0;
+	padding: 70px 0;
+
+	background-color: var(--dark);
+}
+.company-callback__address-title {
+	font-weight: 800;
+	font-size: 29px;
+	line-height: 34px;
+	text-align: center;
+	color: #ffffff;
+}
+.company-callback__address-desc {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 170%;
+	color: #989da5;
+
+	text-align: center;
+	padding-top: 30px;
+}
+.company-callback__address-desc i {
+	background-image: url('/images/interface/mapmarker.svg');
+	background-repeat: no-repeat;
+
+	position: relative;
+	padding: 8px;
+	top: 7px;
+}
+.company-callback__address-phone {
+	font-family: roboto-wt, sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 165%;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+
+	display: block;
+	padding: 10px 0;
+}
+.company-callback__address-phone:hover,
+.company-callback__address-phone:focus,
+.company-callback__address-phone:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+.map {
+	width: 100%;
+	height: 700px;
+	padding: 50px 175px;
 }
