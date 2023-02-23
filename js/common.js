@@ -96,6 +96,22 @@ document.addEventListener('DOMContentLoaded', function () {
 		},
 	})
 
+	const thumbsSwiper = new Swiper('.product-slider-thumbs', {
+		spaceBetween: 20,
+		slidesPerView: 7,
+	})
+
+	const productSlider = new Swiper('.product-slider', {
+		speed: 400,
+		spaceBetween: 100,
+		loop: true,
+		grab: true,
+		grabCursor: true,
+		thumbs: {
+			swiper: thumbsSwiper,
+		},
+	})
+
 	// Callback List Numbers
 
 	$('.home-callback__list li').each(function () {
