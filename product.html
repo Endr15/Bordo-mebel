@@ -90,7 +90,7 @@
 		<section class="product">
 			<div class="container">
 				<div class="row">
-					<div class="product-slider">
+					<div class="product-slider col align-self-center">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
 								<img
@@ -176,38 +176,16 @@
 
 						<div class="product-content__choice">
 							<div class="product-choice__title">Выберите цвет:</div>
-							<div class="product-choice__items">
-								<button
-									class="product-choice__item"
-									style="background-color: #fff"
-								></button>
-								<button
-									class="product-choice__item"
-									style="background-color: red"
-								></button>
-								<button
-									class="product-choice__item"
-									style="background-color: teal"
-								></button>
-								<button
-									class="product-choice__item"
-									style="background-color: blue"
-								></button>
-							</div>
+							<div class="product-choice__items color"></div>
 						</div>
 
 						<div class="product-content__choice">
 							<div class="product-choice__title">Выберите размер:</div>
-							<div class="product-choice__items">
-								<button class="product-choice__item-size">100</button>
-								<button class="product-choice__item-size">200</button>
-								<button class="product-choice__item-size">300</button>
-								<button class="product-choice__item-size">400</button>
-							</div>
+							<div class="product-choice__items size"></div>
 						</div>
 
 						<div class="product-content__price">
-							<div class="price"><span>Цена: </span> 6.900₽</div>
+							<div class="price"><span>Цена: </span> 5000₽</div>
 							<button
 								class="button services__button"
 								data-custom-open="modal"
@@ -351,10 +329,14 @@
 			</div>
 		</div>
 
+		<div class="color-settings" style="display: none">#fff #000 #333</div>
+		<div class="settings" style="display: none">100-5000 200-6900 300-7000</div>
+
 		<script src="libs/jquery/jquery-3.6.0.min.js"></script>
 		<script src="libs/swiper/swiper-bundle.min.js"></script>
 		<script src="libs/micromodal/micromodal.min.js"></script>
 
+		<script src="js/product.js"></script>
 		<script src="js/common.js"></script>
 	</body>
 </html>
