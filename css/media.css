@@ -217,6 +217,49 @@
 	.menu-toggle {
 		padding-right: 100px;
 	}
+
+	/* PRODUCT */
+	.catalog-content__item {
+		margin-top: 250px;
+	}
+	.catalog-content__item:first-child {
+		margin-top: 50px;
+	}
+	.catalog-content__item-img {
+		width: 85%;
+	}
+	.catalog-content__item-img__content {
+		margin: 55px;
+		bottom: 350px;
+	}
+	.catalog__item-content {
+		max-width: 85%;
+		margin: auto;
+		bottom: 250px;
+	}
+}
+@media (max-width: 450px) {
+	.catalog-content__item {
+		margin-top: 150px;
+	}
+	.catalog-content__item-img__content {
+		bottom: 300px;
+	}
+	.catalog__item-content {
+		bottom: 260px;
+	}
+}
+@media (max-width: 385px) {
+	.catalog-content__item {
+		margin-top: 75px;
+	}
+	.catalog-content__item-img__content {
+		margin: 95px 40px;
+		padding: 5px;
+	}
+	.catalog__item-content {
+		bottom: 335px;
+	}
 }
 
 /* === MOBILE FIRST === */
