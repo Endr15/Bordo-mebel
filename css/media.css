@@ -191,6 +191,14 @@
 	.map {
 		padding: 50px 50px;
 	}
+
+	/* PRODUCT */
+	.specifications {
+		display: none;
+	}
+	.specifications-small {
+		display: block;
+	}
 }
 
 /* xs <= Small (sm) */
