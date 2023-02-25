@@ -1438,6 +1438,9 @@ footer {
 	line-height: 170%;
 	text-align: center;
 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
 	padding: 5px 15px;
 	margin-right: 15px;
 
