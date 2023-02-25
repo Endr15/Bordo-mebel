@@ -1498,6 +1498,9 @@ footer {
 	flex-direction: row;
 	justify-content: space-between;
 }
+.specifications-list li span {
+	font-family: 'roboto-wt', sans-serif;
+}
 .specifications-list li span i {
 	display: block;
 	padding: 5px;
