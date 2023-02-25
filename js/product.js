@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 	//Добавление размеров
-	const settings = document.querySelector('.settings').innerHTML
+	const settings = document.querySelector('.price-settings').innerHTML
 	const arrayOfSettings = settings.split(' ')
 	arrayOfSettings.reverse()
 
