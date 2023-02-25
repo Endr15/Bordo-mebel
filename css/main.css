@@ -1239,6 +1239,40 @@ footer {
 	text-align: center;
 }
 
+.filter {
+	display: none;
+	position: relative;
+	left: 20%;
+	padding: 15px;
+
+	background-image: url('../images/interface/filter.svg');
+	background-repeat: no-repeat;
+}
+
+.aside-box__company-about {
+	margin-top: 70px;
+}
+.aside-box__company-about-small {
+	display: none;
+	flex-direction: column;
+	max-width: 250px;
+	margin-left: auto;
+
+	position: absolute;
+	z-index: 5;
+	right: 150px;
+	top: 225px;
+}
+.list-active {
+	display: flex;
+}
+.aside-box__company-about-small .aside-box__content {
+	background-color: var(--dark);
+}
+.aside-box__company-about-small .aside-box__title {
+	color: #fff;
+}
+
 .catalog-content__item {
 	text-align: center;
 	text-decoration: none;

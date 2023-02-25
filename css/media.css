@@ -40,6 +40,25 @@
 	.map {
 		padding: 50px 100px;
 	}
+
+	/* CATALOG */
+
+	.catalog-content__item-img__content {
+		padding: 5px;
+		margin: 7px;
+		bottom: 185px;
+	}
+	.catalog-content__item-img__content-title {
+		padding-bottom: 5px;
+	}
+	.catalog-content__item-img__content-desc {
+		padding-bottom: 5px;
+	}
+
+	.catalog__item-content {
+		bottom: 165px;
+		padding: 5px;
+	}
 }
 
 /* md <= Large (lg) */
@@ -131,6 +150,15 @@
 	.services-content__card-img {
 		height: 254px;
 	}
+
+	/* CATALOG CATEGORY-LIST */
+
+	.filter {
+		display: inline-block;
+	}
+	.aside-box__company-about {
+		display: none;
+	}
 }
 
 /* sm <= Medium (md) */
@@ -192,12 +220,41 @@
 		padding: 50px 50px;
 	}
 
+	/* CATALOG */
+
+	.catalog-content__item {
+		margin-top: 200px;
+	}
+	.catalog-content__item:first-child {
+		margin-top: 50px;
+	}
+	.catalog-content__item-img {
+		width: 85%;
+	}
+	.catalog-content__item-img__content {
+		margin: 55px;
+		bottom: 300px;
+	}
+	.catalog__item-content {
+		max-width: 85%;
+		margin: auto;
+		bottom: 200px;
+	}
+
+	.catalog-content__item:last-child {
+		margin-bottom: 70px;
+	}
+
 	/* PRODUCT */
 	.specifications {
 		display: none;
 	}
 	.specifications-small {
 		display: block;
+	}
+
+	.aside-box__company-about-small {
+		right: 110px;
 	}
 }
 
@@ -226,7 +283,7 @@
 		padding-right: 100px;
 	}
 
-	/* PRODUCT */
+	/* CATALOG */
 	.catalog-content__item {
 		margin-top: 250px;
 	}
@@ -243,7 +300,11 @@
 	.catalog__item-content {
 		max-width: 85%;
 		margin: auto;
-		bottom: 250px;
+		bottom: 200px;
+	}
+
+	.filter {
+		left: 10%;
 	}
 }
 @media (max-width: 450px) {
@@ -253,8 +314,9 @@
 	.catalog-content__item-img__content {
 		bottom: 300px;
 	}
-	.catalog__item-content {
-		bottom: 260px;
+
+	.aside-box__company-about-small {
+		right: 80px;
 	}
 }
 @media (max-width: 385px) {
@@ -266,7 +328,14 @@
 		padding: 5px;
 	}
 	.catalog__item-content {
-		bottom: 335px;
+		bottom: 300px;
+	}
+
+	.filter {
+		left: 5%;
+	}
+	.aside-box__company-about-small {
+		right: 30px;
 	}
 }
 

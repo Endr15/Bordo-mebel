@@ -36,6 +36,16 @@ document.addEventListener('DOMContentLoaded', function () {
 		closeMenu()
 	})
 
+	//Category list
+
+	const filter = document.querySelector('.filter')
+	const list = document.querySelector('.aside-box__company-about-small')
+	filter.addEventListener('click', () => {
+		list.classList.toggle('list-active')
+	})
+
+	//Micromodal
+
 	MicroModal.init({
 		openTrigger: 'data-custom-open',
 		closeTrigger: 'data-custom-close',
