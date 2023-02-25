@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	const thumbsSwiper = new Swiper('.product-slider-thumbs', {
 		spaceBetween: 20,
-		slidesPerView: 7,
+		slidesPerView: 5,
 	})
 
 	const productSlider = new Swiper('.product-slider', {
