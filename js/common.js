@@ -36,14 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		closeMenu()
 	})
 
-	//Category list
-
-	const filter = document.querySelector('.filter')
-	const list = document.querySelector('.aside-box__company-about-small')
-	filter.addEventListener('click', () => {
-		list.classList.toggle('list-active')
-	})
-
 	//Micromodal
 
 	MicroModal.init({
@@ -60,12 +52,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	$('[data-custom-close]').click(function () {
 		$('.modal [name=form]').val('')
 	})
-
-	/* $('.home-slider__heading').each(function() {
-		let text  = $(this).text().split(' '),
-				first = text.shift()
-		$(this).html(`${first} <br><span>${text.join(' ')}</span>`)
-	}) */
 
 	// Swiper Sliders
 
