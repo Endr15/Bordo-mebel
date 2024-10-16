@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		//Изменение цены
 		const price = document.querySelector('.price')
 		sizeItem.addEventListener('click', () => {
-			sizeItem.classList.toggle('active')
+			sizeItem.classList.add('active')
 			document.querySelector(
 				'.price'
 			).innerHTML = `<span>Цена: </span> ${sizeItem.id}₽`

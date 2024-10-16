@@ -46,13 +46,10 @@
 								<span class="top-menu__link">Главная</span>
 							</li>
 							<li class="top-menu__item">
-								<a href="catalog.html" class="top-menu__link">Каталог</a>
+								<a href="#shop" class="top-menu__link">Торговые площадки</a>
 							</li>
 							<li class="top-menu__item">
-								<a href="services.html" class="top-menu__link">Услуги</a>
-							</li>
-							<li class="top-menu__item">
-								<a href="company-about.html" class="top-menu__link">Компания</a>
+								<a href="#about" class="top-menu__link">О нас</a>
 							</li>
 						</ul>
 					</div>
@@ -60,18 +57,19 @@
 					<div class="col-md-3 d-none d-lg-block nav-social-wrap">
 						<div class="nav-social">
 							<a
-								href="https://instagram.com/bordo.mebel?igshid=YWJhMjlhZTc="
-								class="nav-social__item"
-								target="_blank"
-								><img
-									src="images/fa-soc/white/instagram-brands.svg"
-									alt="Instagram"
-							/></a>
-							<a
 								href="https://vk.com/bordo.mebel"
 								class="nav-social__item"
 								target="_blank"
 								><img src="images/fa-soc/white/vk.svg" alt="ВКонтакте"
+							/></a>
+
+							<a
+								href="https://instagram.com/bordo.mebel?igshid=YWJhMjlhZTc="
+								class="nav-social__item avito"
+								target="_blank"
+								><img
+									src="images/fa-soc/white/avito.svg"
+									alt="Avito"
 							/></a>
 						</div>
 					</div>
@@ -87,13 +85,11 @@
 				>
 					<div class="container">
 						<h2 data-animate="bottom" class="home-slider__heading">
-							BORDO MEBEL<br /><span>Мебель доступная каждому</span>
+							BORDO MEBEL<br /><span>Время красивой мебели!</span>
 						</h2>
-						<p data-animate="bottom" class="home-slider__text">
-							Реализация мебели Вашей мечты! Наша профессиональная команда
-							подберет и разработает мебель, которая сделает Ваш дом более
-							уютным. Гарантия, комфорт и выгодные цены Вам обеспечены
-						</p>
+						<button data-animate="bottom" class="home-slider__text home-slider_button" data-custom-open="modal" data-form="Форма секции Нам доверяют">
+							Оформить заявку сейчас
+						</button>
 					</div>
 				</div>
 
@@ -187,23 +183,23 @@
 			</div>
 		</section>
 
-		<section class="best-works">
+		<section class="best-works" id="shop">
 			<div class="best-works__top">
 				<div class="container">
 					<div class="row">
 						<div
-							class="col-xl-10 offset-xl-1 col-lg-12 best-works__top-wrapper"
+							class="col-md-12 best-works__top-wrapper"
 						>
-							<div class="best-works__left">
+<!-- 							<div class="best-works__left">
 								Портфолио, представленное нашей командой профессионалов,
 								позволит вам выбрать интересующий стиль, цвет, фактуру, дизайн и
 								расположение элементов.
-							</div>
+							</div> -->
 							<div class="best-works__right">
 								<div class="section-title">
-									<div class="section-title__name">Лучшие работы</div>
+									<!-- <div class="section-title__name">Лучшие работы</div> -->
 									<h2 class="section-title__desc">
-										Создаём красоту и атмосферу вашего дома
+										Торговые площадки
 									</h2>
 								</div>
 							</div>
@@ -215,39 +211,39 @@
 			<div class="best-works__bottom">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 best-works__item-wrapper">
+						<div class=" offset-md-1 col-md-4 best-works__item-wrapper">
 							<a href="#" class="best-item">
 								<div class="best-item__img-wrapper">
 									<img
-										src="images/portfolio/portfolio-img-1.jpg"
-										alt="Современная гостиная в древесных тонах"
+										src="images/fa-soc/avito.svg"
+										alt="Наш магазин представлен на торговой площадке Avito.ru"
 									/>
 								</div>
 								<div class="best-item__content">
 									<div class="best-item__desc">
-										Современная гостиная в древесных тонах
+										Наш магазин представлен на торговой площадке Avito.ru
 									</div>
 								</div>
 							</a>
 						</div>
 
-						<div class="col-md-4 best-works__item-wrapper">
+						<div class="offset-md-2 col-md-4 best-works__item-wrapper">
 							<a href="#" class="best-item">
-								<div class="best-item__img-wrapper">
+								<div class="best-item__img-wrapper vk">
 									<img
-										src="images/portfolio/portfolio-img-2.jpg"
+										src="images/fa-soc/vk.svg"
 										alt="Шкаф с нестандартным решением для телевизора"
 									/>
 								</div>
 								<div class="best-item__content">
 									<div class="best-item__desc">
-										Шкаф с нестандартным решением для телевизора
+										У нас есть сообщество в социальной сети VK
 									</div>
 								</div>
 							</a>
 						</div>
 
-						<div class="col-md-4 best-works__item-wrapper">
+<!-- 						<div class="col-md-4 best-works__item-wrapper">
 							<a href="#" class="best-item">
 								<div class="best-item__img-wrapper">
 									<img
@@ -261,7 +257,7 @@
 									</div>
 								</div>
 							</a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
@@ -273,7 +269,7 @@
 			</div>
 		</section>
 
-		<section class="advantages">
+		<section class="advantages" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 advantages-slider-wrapper">
@@ -393,18 +389,18 @@
 						</div>
 						<div class="footer-soc-icons">
 							<a
-								href="https://instagram.com/bordo.mebel?igshid=YWJhMjlhZTc="
-								class="footer-social__item"
-								target="_blank"
-								><img
-									src="images/fa-soc/white/instagram-brands.svg"
-									alt="Instagram"
-							/></a>
-							<a
 								href="https://vk.com/bordo.mebel"
 								class="footer-social__item"
 								target="_blank"
 								><img src="images/fa-soc/white/vk.svg" alt="VK"
+							/></a>
+							<a
+								href="https://instagram.com/bordo.mebel?igshid=YWJhMjlhZTc="
+								class="footer-social__item"
+								target="_blank"
+								><img
+									src="images/fa-soc/white/avito-1.svg"
+									alt="Avito"
 							/></a>
 						</div>
 					</div>

@@ -145,6 +145,10 @@ body {
 
 /* BUTTON */
 
+.avito img {
+	max-width: 120px!important;
+}
+
 .button {
 	outline: none;
 	border: none;
@@ -356,7 +360,7 @@ span.top-menu__link.navbar-light {
 	font-size: 58px;
 	line-height: 0.8;
 	font-weight: 300;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 	transition-delay: 0.3s;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -424,6 +428,15 @@ span.top-menu__link.navbar-light {
 .home-slider__next::after {
 	font-size: 14px;
 	color: #818b9d;
+}
+
+.home-slider_button {
+	color: #fff;
+	font-size: 14px;
+	font-family: raleway-wt, sans-serif;
+	font-weight: 700;
+	margin: 0;
+	border: 0;
 }
 
 /* HOME CALLBACK */
@@ -559,10 +572,11 @@ form textarea {
 .best-works__top-wrapper {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 .best-works__left,
 .best-works__right {
-	flex: 0 0 50%;
+	//flex: 0 0 50%;
 	margin-bottom: var(--gutter);
 }
 .best-works__left {
@@ -574,7 +588,7 @@ form textarea {
 	border-right: var(--dark-div) 1px solid;
 }
 .best-works__right {
-	padding-left: 40px;
+	//padding-left: 40px;
 }
 .best-works__bottom {
 	margin-top: -130px;
@@ -603,7 +617,7 @@ form textarea {
 }
 .section-title__desc {
 	line-height: 1.2;
-	font-size: 29px;
+	font-size: 36px;
 	margin: 0;
 	margin-top: 5px;
 	font-weight: 800;
@@ -640,9 +654,11 @@ form textarea {
 }
 .best-item__img-wrapper {
 	position: relative;
+	display: flex;
+	justify-content: center;
 }
 .best-item__img-wrapper img {
-	width: 100%;
+	width: 75%;
 }
 .best-item__content {
 	padding: 25px;
@@ -719,6 +735,16 @@ form textarea {
 .best-item:hover .best-item__img-wrapper:after {
 	opacity: 1;
 	background-position: 20px 20px;
+}
+
+.best-item__img-wrapper img {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 36px;
+}
+.vk img {
+	width: 30%;
+	margin: 15px;
 }
 
 /* ADVANTAGES */
